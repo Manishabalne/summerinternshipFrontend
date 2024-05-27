@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rootlayout{
+    background-image:linear-gradient(to right,rgba(179, 126, 243, 0.5), rgba(245, 146, 223, 0.5)), url('images/online-assessments.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
