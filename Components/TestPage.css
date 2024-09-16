@@ -1,0 +1,119 @@
+.test-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.test-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.test-time, .test-duration {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.time-selection select {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.questions-section {
+    width: 100%;
+}
+
+.question-item {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modify-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modify-btn:hover {
+    background-color: #0056b3;
+}
+
+.options {
+    margin-top: 10px;
+}
+
+.option-item {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.marks-section {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.marks-control {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.marks-control button {
+    padding: 2px 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.marks-control button:hover {
+    background-color: #0056b3;
+}
+
+.marks-control input {
+    width: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.post-test-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.post-test-btn:hover {
+    background-color: #218838;
+}
